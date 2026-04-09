@@ -1,4 +1,4 @@
-11:42:59.990 [Test worker] INFO  com.kousenit.services.AssistantTest -
+11:42:59.990 [Test worker] INFO  com.example.services.AssistantTest -
 
 orca-mini via ollama:  The calculation involves two numbers, "hello" and "world", and their respective number of letters.
 
@@ -16,7 +16,7 @@ org.opentest4j.AssertionFailedError:
 Expecting value to be true but was false
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at com.kousenit.services.AssistantTest.sqrtSumLetters_with_model(AssistantTest.java:145)
+	at com.example.services.AssistantTest.sqrtSumLetters_with_model(AssistantTest.java:145)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
@@ -57,7 +57,7 @@ Expecting value to be true but was false
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-11:43:05.355 [Test worker] INFO  com.kousenit.services.AssistantTest -
+11:43:05.355 [Test worker] INFO  com.example.services.AssistantTest -
 
 llama2 via ollama: To find the square root of a sum, we need to use the formula:
 
@@ -90,7 +90,7 @@ org.opentest4j.AssertionFailedError:
 Expecting value to be true but was false
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at com.kousenit.services.AssistantTest.sqrtSumLetters_with_model(AssistantTest.java:145)
+	at com.example.services.AssistantTest.sqrtSumLetters_with_model(AssistantTest.java:145)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
@@ -131,14 +131,14 @@ Expecting value to be true but was false
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-11:43:12.251 [Test worker] INFO  com.kousenit.services.AssistantTest -
+11:43:12.251 [Test worker] INFO  com.example.services.AssistantTest -
 
 codellama via ollama: The word "hello" contains 5 letters, while the word "world" has 5 letters too.
 
 The sum of the number of letters in these two words is 10.
 
 Therefore, the square root of this sum is √10 = 3.16.
-11:43:20.557 [Test worker] INFO  com.kousenit.services.AssistantTest -
+11:43:20.557 [Test worker] INFO  com.example.services.AssistantTest -
 
 phi via ollama:  Step 1: Count the number of letters in "hello" and add it to the number of letters in "world".
 The word "hello" has 5 letters, and the word "world" also has 5 letters. So, the sum is 10.
@@ -160,7 +160,7 @@ Next, add the numbers corresponding to each letter in both words. Sum of squares
 Then, find the square root of these sums, which gives us the final answer after we've performed all the calculations: √155 (for "hello") and √733 (for "world").
 Answer: The final answer is about 12.4082 and 27.811 respectively.
 
-11:43:26.561 [Test worker] INFO  com.kousenit.services.AssistantTest -
+11:43:26.561 [Test worker] INFO  com.example.services.AssistantTest -
 
 tinyllama via ollama: Step 1: Choose an example to calculate
 We'll use the word "hello", which has 3 letters: "h" and 2 letters: "l" (for a total of 5 letters).
@@ -225,7 +225,7 @@ org.opentest4j.AssertionFailedError:
 Expecting value to be true but was false
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at com.kousenit.services.AssistantTest.sqrtSumLetters_with_model(AssistantTest.java:145)
+	at com.example.services.AssistantTest.sqrtSumLetters_with_model(AssistantTest.java:145)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
@@ -266,7 +266,7 @@ Expecting value to be true but was false
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-11:43:29.658 [Test worker] INFO  com.kousenit.services.AssistantTest -
+11:43:29.658 [Test worker] INFO  com.example.services.AssistantTest -
 
 gemma:2b via ollama: Sure, here are the steps to calculate the square root of the sum of the numbers of letters in the words "hello" and "world":
 
@@ -295,7 +295,7 @@ org.opentest4j.AssertionFailedError:
 Expecting value to be true but was false
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at com.kousenit.services.AssistantTest.sqrtSumLetters_with_model(AssistantTest.java:145)
+	at com.example.services.AssistantTest.sqrtSumLetters_with_model(AssistantTest.java:145)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
@@ -336,7 +336,7 @@ Expecting value to be true but was false
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-11:43:41.395 [Test worker] INFO  com.kousenit.services.AssistantTest -
+11:43:41.395 [Test worker] INFO  com.example.services.AssistantTest -
 
 gemma via ollama: Sure, here is the calculation:
 
@@ -364,7 +364,7 @@ org.opentest4j.AssertionFailedError:
 Expecting value to be true but was false
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at com.kousenit.services.AssistantTest.sqrtSumLetters_with_model(AssistantTest.java:145)
+	at com.example.services.AssistantTest.sqrtSumLetters_with_model(AssistantTest.java:145)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
@@ -405,7 +405,7 @@ Expecting value to be true but was false
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-11:43:48.371 [Test worker] INFO  com.kousenit.services.AssistantTest -
+11:43:48.371 [Test worker] INFO  com.example.services.AssistantTest -
 
 vicuna via ollama: To find the sum of the numbers of letters in the words "hello" and "world", we can count the number of letters in each word:
 
@@ -424,7 +424,7 @@ org.opentest4j.AssertionFailedError:
 Expecting value to be true but was false
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at com.kousenit.services.AssistantTest.sqrtSumLetters_with_model(AssistantTest.java:145)
+	at com.example.services.AssistantTest.sqrtSumLetters_with_model(AssistantTest.java:145)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
@@ -465,7 +465,7 @@ Expecting value to be true but was false
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-11:43:56.650 [Test worker] INFO  com.kousenit.services.AssistantTest -
+11:43:56.650 [Test worker] INFO  com.example.services.AssistantTest -
 
 neural-chat via ollama:  First, find the number of letters in both words:
 "hello": 5 letters
@@ -485,7 +485,7 @@ org.opentest4j.AssertionFailedError:
 Expecting value to be true but was false
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at com.kousenit.services.AssistantTest.sqrtSumLetters_with_model(AssistantTest.java:145)
+	at com.example.services.AssistantTest.sqrtSumLetters_with_model(AssistantTest.java:145)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
 	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
@@ -526,7 +526,7 @@ Expecting value to be true but was false
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 
-11:44:33.312 [Test worker] INFO  com.kousenit.services.AssistantTest -
+11:44:33.312 [Test worker] INFO  com.example.services.AssistantTest -
 
 mixtral via ollama:  Step 1: Count the number of letters in each word.
 - The word "hello" has 5 letters.

@@ -3,7 +3,7 @@ plugins {
     id("groovy")
 }
 
-group = "com.kousenit"
+group = "com.example"
 version = "1.0-SNAPSHOT"
 
 val langchain4jVersion by extra("0.35.0")
